@@ -1,0 +1,22 @@
+{
+  "name": "password-manager-node",
+  "version": "1.0.0",
+  "description": "A simple CLI password manager for Node.js",
+  "bin": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Andres Hernandez Lozano <soyandresdev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "minimist": "^1.2.5",
+    "sqlite3": "^4.2.0",
+    "standard": "^14.3.4"
+  }
+}
